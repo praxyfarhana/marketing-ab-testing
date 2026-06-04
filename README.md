@@ -106,28 +106,23 @@ ab_testing_project/
 - Jupyter Notebook
 - Kaggle Account & API Token
 
-### Step 1 — Clone the Repository
-```bash
-git clone https://github.com/yourusername/marketing-ab-testing.git
-cd marketing-ab-testing
-```
 
-### Step 2 — Install Required Libraries
+### Step 1 — Install Required Libraries
 ```bash
 pip install kagglehub==0.3.4 pandas numpy matplotlib seaborn scipy notebook
 ```
 
-### Step 3 — Set Up Kaggle API Token
+### Step 2 — Set Up Kaggle API Token
 - Go to **Kaggle → Settings → API Tokens**
 - Click **Generate New Token**
 - Copy the token and add it to the notebook
 
-### Step 4 — Launch Jupyter Notebook
+### Step 3 — Launch Jupyter Notebook
 ```bash
 jupyter notebook
 ```
 
-### Step 5 — Open the Notebook
+### Step 4 — Open the Notebook
 Navigate to `notebooks/marketing_ab_testing.ipynb` 
 and run all cells.
 
